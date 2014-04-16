@@ -1,0 +1,17 @@
+body {
+    padding-top: 40px; /* 60px to make the container go all the way to the bottom of the topbar */
+    /* background-image: url(../img/apple_bg.jpg); */
+    height: 100%;
+    background-repeat: repeat;
+    background-position: 0 40px;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+}
+footer {
+    text-align: center;
+}
+.page_content {
+    padding-top: 20px;
+}
+.item {
+    cursor: pointer;
+}

@@ -1,0 +1,48 @@
+<div id="workplace" class="page_content container hide">
+	<div class="tabbable">
+		<!-- tab header -->
+		<ul class="nav nav-tabs">
+			<li class="active"><a id="workplace_important_link"
+				href="#workplace_important_tab" data-toggle="tab" class="tab_link"
+				page="workplace" tab="important">Important <span
+					id="workplace_important_badge" class="badge badge-important hide">0</span>
+			</a></li>
+			<li class=""><a id="workplace_normal_link"
+				href="#workplace_normal_tab" data-toggle="tab" class="tab_link"
+				page="workplace" tab="normal">Normal <span
+					id="workplace_normal_badge" class="badge badge-warning hide">0</span>
+			</a></li>
+			<li class=""><a id="workplace_explore_link"
+				href="#workplace_explore_tab" data-toggle="tab" class="tab_link"
+				page="workplace" tab="explore">Explore <span
+					id="workplace_explore_badge" class="badge badge-info hide">0</span>
+			</a></li>
+		</ul>
+		<!-- tab content -->
+		<div class="tab-content">
+			<div id="workplace_important_tab" class="tab-pane active">
+				<input id="workplace_important_input" class="span12 task_input"
+					type="text" placeholder="New Task..." page="workplace"
+					tab="important">
+				<table class="table table-striped">
+					<tbody id="workplace_important_list" class="item_list"></tbody>
+				</table>
+			</div>
+			<div id="workplace_normal_tab" class="tab-pane">
+				<input id="workplace_normal_input" class="span12 task_input"
+					type="text" placeholder="New Task..." page="workplace" tab="normal">
+				<table class="table table-striped">
+					<tbody id="workplace_normal_list" class="item_list"></tbody>
+				</table>
+			</div>
+			<div id="workplace_explore_tab" class="tab-pane">
+				<input id="workplace_explore_input" class="span12 task_input"
+					type="text" placeholder="New Task..." page="workplace"
+					tab="explore">
+				<table class="table table-striped">
+					<tbody id="workplace_explore_list" class="item_list"></tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
